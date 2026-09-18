@@ -29,7 +29,10 @@ function StatCard({
         <dl className="mt-3 space-y-1 border-t border-line-soft pt-3">
           {breakdown.map(([role, count]) => (
             <div key={role} className="flex items-center justify-between gap-3">
-              <dt className="text-xs text-ink-dim truncate">{role}</dt>
+              <dt className="text-xs text-ink-dim truncate">
+                {role}
+                {count === 1 ? "" : "s"}
+              </dt>
               <dd className="tabular text-xs text-ink-faint">
                 {count.toLocaleString("en-IN")}
               </dd>
