@@ -12,6 +12,7 @@ type DashboardState = {
   addedCollegeIds: Set<number>;
   uploadedFileName: string | null;
   addCollege: (college: Omit<College, "id">) => void;
+  updateCollegeState: (collegeId: number, state: string) => void;
   replaceTeams: (teams: Team[], fileName: string) => void;
   resetToSeed: () => void;
 };
@@ -31,6 +32,14 @@ export const useDashboardStore = create<DashboardState>()(
         set((state) => ({
           colleges: [...state.colleges, { ...college, id }],
           addedCollegeIds: new Set(state.addedCollegeIds).add(id),
+        }));
+      },
+
+      updateCollegeState: (collegeId, state) => {
+        set((s) => ({
+          colleges: s.colleges.map((c) =>
+            c.id === collegeId ? { ...c, state } : c,
+          ),
         }));
       },
 
