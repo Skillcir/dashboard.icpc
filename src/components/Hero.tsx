@@ -26,7 +26,7 @@ function StatCard({
         {displayValue.toLocaleString("en-IN")}
       </div>
       {detail && (
-        <div className="tabular mt-2 text-xs text-ink-faint truncate">
+        <div className="tabular mt-2 text-xs text-ink-faint leading-relaxed">
           {detail}
         </div>
       )}
