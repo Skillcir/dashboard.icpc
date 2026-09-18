@@ -6,12 +6,12 @@ import { useCountUp } from "@/lib/useCountUp";
 function StatCard({
   label,
   value,
-  detail,
+  breakdown,
   index,
 }: {
   label: string;
   value: number;
-  detail?: string;
+  breakdown?: [string, number][];
   index: number;
 }) {
   const displayValue = useCountUp(value);
@@ -25,10 +25,17 @@ function StatCard({
       <div className="tabular mt-2 text-3xl font-semibold text-ink leading-none">
         {displayValue.toLocaleString("en-IN")}
       </div>
-      {detail && (
-        <div className="tabular mt-2 text-xs text-ink-faint leading-relaxed">
-          {detail}
-        </div>
+      {breakdown && breakdown.length > 0 && (
+        <dl className="mt-3 space-y-1 border-t border-line-soft pt-3">
+          {breakdown.map(([role, count]) => (
+            <div key={role} className="flex items-center justify-between gap-3">
+              <dt className="text-xs text-ink-dim truncate">{role}</dt>
+              <dd className="tabular text-xs text-ink-faint">
+                {count.toLocaleString("en-IN")}
+              </dd>
+            </div>
+          ))}
+        </dl>
       )}
     </div>
   );
@@ -44,9 +51,6 @@ export function Hero() {
     unmatched,
   } = useStats();
   const pendingReview = unmatched.length;
-  const roleDetail = roleCounts
-    .map(([role, count]) => `${count.toLocaleString("en-IN")} ${role}`)
-    .join(" · ");
 
   return (
     <header className="border-b border-line bg-bg-panel/60">
@@ -80,7 +84,7 @@ export function Hero() {
           <StatCard
             label="Total participants"
             value={totalParticipants}
-            detail={roleDetail}
+            breakdown={roleCounts}
             index={1}
           />
           <StatCard label="States represented" value={totalStates} index={2} />
