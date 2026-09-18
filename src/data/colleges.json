@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Aditya University",
+    "city": "Surampalem",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 2,
+    "name": "GITAM (Deemed to be University)",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 3,
+    "name": "Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 4,
+    "name": "Prasad V. Potluri Siddhartha Institute of Technology",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 5,
+    "name": "Velagapudi Ramakrishna Siddhartha Engineering College",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 6,
+    "name": "Vignan's Institute of Information Technology",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": 7,
+    "name": "National Institute of Technology, Silchar",
+    "city": "Silchar",
+    "state": "Assam"
+  },
+  {
+    "id": 8,
+    "name": "Indian Institute of Technology - Patna",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "id": 9,
+    "name": "National Institute of Technology, Patna",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "id": 10,
+    "name": "Bhagwan Parshuram Institute of Technology",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": 11,
+    "name": "Guru Gobind Singh Indraprastha University",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": 12,
+    "name": "Vivekananda Institute of Professional Studies - Technical Campus",
+    "city": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": 13,
+    "name": "BITS Pilani, Goa Campus",
+    "city": "Vasco da Gama",
+    "state": "Goa"
+  },
+  {
+    "id": 14,
+    "name": "Goa Engineering College",
+    "city": "Farmagudi",
+    "state": "Goa"
+  },
+  {
+    "id": 15,
+    "name": "Birla Vishvakarma Mahavidyalaya Engineering College",
+    "city": "Anand",
+    "state": "Gujarat"
+  },
+  {
+    "id": 16,
+    "name": "Gati Shakti Vishwavidyalaya",
+    "city": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "id": 17,
+    "name": "IIIT Vadodara-International Campus Diu",
+    "city": "Diu",
+    "state": "Gujarat"
+  },
+  {
+    "id": 18,
+    "name": "Pandit Deendayal Energy University",
+    "city": "Gandhinagar",
+    "state": "Gujarat"
+  },
+  {
+    "id": 19,
+    "name": "BML Munjal University",
+    "city": "Gurugram",
+    "state": "Haryana"
+  },
+  {
+    "id": 20,
+    "name": "JC Bose University of Science and Technology, YMCA",
+    "city": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "id": 21,
+    "name": "National Institute of Technology, Kurukshetra",
+    "city": "Kurukshetra",
+    "state": "Haryana"
+  },
+  {
+    "id": 22,
+    "name": "Indian Institute of Technology - Jammu",
+    "city": "Jammu",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": 23,
+    "name": "Birla Institute of Technology, Mesra",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "id": 24,
+    "name": "Indian Institute of Technology - Dharwad",
+    "city": "Dharwad",
+    "state": "Karnataka"
+  },
+  {
+    "id": 25,
+    "name": "M.S. Ramaiah Institute of Technology",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "id": 26,
+    "name": "RV College of Engineering",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "id": 27,
+    "name": "Amrita School of Engineering, Kollam",
+    "city": "Kollam",
+    "state": "Kerala"
+  },
+  {
+    "id": 28,
+    "name": "Saintgits College of Engineering, Kottayam",
+    "city": "Kottayam",
+    "state": "Kerala"
+  },
+  {
+    "id": 29,
+    "name": "Jawaharlal Institute of Technology Borawan",
+    "city": "Khargone",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": 30,
+    "name": "Cummins College of Engineering for Women, Pune",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 31,
+    "name": "Dr. Vishwanath Karad MIT World Peace University",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 32,
+    "name": "Pimpri Chinchwad University, Maval",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 33,
+    "name": "Rajarshi Shahu College of Engineering",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 34,
+    "name": "Sardar Patel Institute of Technology",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 35,
+    "name": "Smt. Kashibai Navale College of Engineering",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 36,
+    "name": "Thakur College of Engineering and Technology",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 37,
+    "name": "Walchand College of Engineering, Sangli",
+    "city": "Sangli",
+    "state": "Maharashtra"
+  },
+  {
+    "id": 38,
+    "name": "National Institute of Technology, Manipur",
+    "city": "Imphal",
+    "state": "Manipur"
+  },
+  {
+    "id": 39,
+    "name": "Indian Institute of Technology - Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  {
+    "id": 40,
+    "name": "National Institute of Technology, Rourkela",
+    "city": "Rourkela",
+    "state": "Odisha"
+  },
+  {
+    "id": 41,
+    "name": "Thapar Institute of Engineering & Technology",
+    "city": "Patiala",
+    "state": "Punjab"
+  },
+  {
+    "id": 42,
+    "name": "Malaviya National Institute of Technology Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 43,
+    "name": "Manipal University Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 44,
+    "name": "Amrita School of Computing, Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 45,
+    "name": "Amrita University",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 46,
+    "name": "Amrita Vishwa Vidyapeetham",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 47,
+    "name": "Anna University",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 48,
+    "name": "Chennai Institute of Technology",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 49,
+    "name": "Coimbatore Institute of engineering and Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 50,
+    "name": "Kalaignarkarunanidhi Institute of Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 51,
+    "name": "Kangeyam Institute of Technology",
+    "city": "Tirupur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 52,
+    "name": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 53,
+    "name": "Sri Krishna College of Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 54,
+    "name": "Sri Sivasubramaniya Nadar College of Engineering",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 55,
+    "name": "St. Joseph's College of Engineering",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 56,
+    "name": "St. Joseph's Institute of Technology",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": 57,
+    "name": "National Institute of Technology, Warangal",
+    "city": "Warangal",
+    "state": "Telangana"
+  },
+  {
+    "id": 58,
+    "name": "NxtWave Institute of Advanced Technologies",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 59,
+    "name": "Padmasri Dr. B.V. Raju Institute Of Technology",
+    "city": "Medak",
+    "state": "Telangana"
+  },
+  {
+    "id": 60,
+    "name": "VNR Vignana Jyothi Institute of Engineering & Technology",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 61,
+    "name": "Ajay Kumar Garg Engineering College, Ghaziabad",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 62,
+    "name": "GLA University, Mathura",
+    "city": "Mathura",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 63,
+    "name": "Galgotias University",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 64,
+    "name": "Indian Institute of Information Technology, Allahabad",
+    "city": "Allahabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 65,
+    "name": "Indian Institute of Technology - Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 66,
+    "name": "Institute of Engineering & Technology, Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 67,
+    "name": "Motilal Nehru National Institute of Technology - Allahabad",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 68,
+    "name": "Noida Institute of Engineering and Technology",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": 69,
+    "name": "Bipin Tripathi Kumaon Institute of Technology, Dwarahat",
+    "city": "Dwarahat",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": 70,
+    "name": "Graphic Era University",
+    "city": "Dehradun",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": 71,
+    "name": "Brainware University",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "id": 72,
+    "name": "Indian Statistical Institute",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "id": 73,
+    "name": "National Institute of Technology, Durgapur",
+    "city": "Durgapur",
+    "state": "West Bengal"
+  },
+  {
+    "id": 74,
+    "name": "TECHNO INDIA UNIVERSITY, WEST BENGAL",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "id": 75,
+    "name": "Techno India university",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  }
+]

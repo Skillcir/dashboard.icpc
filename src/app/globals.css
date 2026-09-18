@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0d1113;
+  --bg-panel: #161b1e;
+  --bg-panel-2: #1e2528;
+  --line: #2a3236;
+  --line-soft: #20272a;
+  --ink: #edefef;
+  --ink-dim: #97a3a6;
+  --ink-faint: #5f6b6e;
+  --brass: #d3a24c;
+  --brass-dim: #8a723f;
+  --accepted: #4cc38a;
+  --pending: #e0a63e;
+  --canceled: #e2685c;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-panel: var(--bg-panel);
+  --color-bg-panel-2: var(--bg-panel-2);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-ink-faint: var(--ink-faint);
+  --color-brass: var(--brass);
+  --color-brass-dim: var(--brass-dim);
+  --color-accepted: var(--accepted);
+  --color-pending: var(--pending);
+  --color-canceled: var(--canceled);
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.tabular {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.panel {
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.panel:hover {
+  border-color: var(--brass-dim);
+  box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.45);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .panel:hover {
+    transform: none;
+  }
+}
+
+::selection {
+  background: var(--brass);
+  color: var(--bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
